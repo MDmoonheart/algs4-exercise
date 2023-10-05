@@ -1,0 +1,6 @@
+#!/bin/bash
+f=$1 
+classpath="-classpath /Users/george/Documents/Code/Java/algs4-exercise/src"
+javac -classpath ${classpath} "${f}.java"
+java -classpath ${classpath} "${f}"
+

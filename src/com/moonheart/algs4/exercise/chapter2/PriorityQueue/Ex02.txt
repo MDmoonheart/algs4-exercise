@@ -1,0 +1,7 @@
+Criticize the following idea: To implement find the maximum in constant time,
+why not use a stack or a queue, but keep track of the maximum value inserted so far,
+then return that value for find the maximum?
+
+Ans:
+The idea is only valid if only the maximum of all time is interested, when you want to find
+second largest, then it would not work.

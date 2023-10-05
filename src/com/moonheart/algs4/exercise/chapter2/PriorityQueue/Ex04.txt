@@ -1,0 +1,5 @@
+2.4.4 Is an array that is sorted in decreasing order a max-oriented heap?
+
+Ans:
+Yes it is, because the left one always greater or equal to the right one,  so the parent(always on
+the left) is greater or equal to the child(always on the right-hand side)

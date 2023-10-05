@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9572f626-5fc1-4eb1-bc3e-b0b603956c2c" name="Changes" comment="" />
+    <list default="true" id="0170fe60-2974-4ad1-a27b-c84d961037a7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,8 +23,9 @@
   <component name="FindBugs-IDEA-Workspace">
     <analyzeAfterCompile>true</analyzeAfterCompile>
     <toolWindowToFront>false</toolWindowToFront>
+    <toolWindowEditorPreview>false</toolWindowEditorPreview>
   </component>
-  <component name="ProjectId" id="2Jf7aPDPGQI3ZyxpKddgwzoCXak" />
+  <component name="ProjectId" id="2LmQkbjD9tmYeSXdpJAg9sfyHy7" />
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
     <option name="autoscrollFromSource" value="true" />
@@ -35,19 +39,19 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/CodePractice/java/algs4-exercise/lib/algs4.jar&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/george/Documents/Code/Java/algs4-exercise&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\CodePractice\java\algs4-exercise\src\edu\princeton\cs\algs4" />
+      <recent name="$PROJECT_DIR$/src/com/moonheart/algs4/exercise/chapter2/QuickSort" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.moonheart.algs4.exercise.chapter1.BagQueuesStacks.test">
+  <component name="RunManager" selected="Application.com.moonheart.algs4.exercise.chapter2.PriorityQueue.Main">
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -56,18 +60,41 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="com.moonheart.algs4.exercise.chapter1.BagQueuesStacks.HelloWorld" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.moonheart.algs4.exercise.chapter1.BagQueuesStacks.HelloWorld" />
+    <configuration name="com.moonheart.algs4.exercise.chapter2.PriorityQueue.Ex06" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.moonheart.algs4.exercise.chapter2.PriorityQueue.Ex06" />
+      <module name="algs4-exercise" />
+      <option name="PROGRAM_PARAMETERS" value="P R I O * R * * I * T * Y * * * Q U E * * * U * E" />
+      <method v="2" />
+    </configuration>
+    <configuration name="com.moonheart.algs4.exercise.chapter2.PriorityQueue.Foo" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.moonheart.algs4.exercise.chapter2.PriorityQueue.Foo" />
       <module name="algs4-exercise" />
       <method v="2" />
     </configuration>
-    <configuration name="com.moonheart.algs4.exercise.chapter1.BagQueuesStacks.test" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.moonheart.algs4.exercise.chapter1.BagQueuesStacks.test" />
+    <configuration name="com.moonheart.algs4.exercise.chapter2.PriorityQueue.Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.moonheart.algs4.exercise.chapter2.PriorityQueue.Main" />
       <module name="algs4-exercise" />
       <method v="2" />
     </configuration>
-    <configuration name="com.moonheart.algs4.exercise.chapter1.UnionFind.Stack" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.moonheart.algs4.exercise.chapter1.UnionFind.Stack" />
+    <configuration name="com.moonheart.algs4.exercise.chapter2.PriorityQueue.MaxPQ" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.moonheart.algs4.exercise.chapter2.PriorityQueue.MaxPQ" />
+      <module name="algs4-exercise" />
+      <option name="PROGRAM_PARAMETERS" value="P R I O * R * * I * T * Y * * * Q U E * * * U *" />
+      <method v="2" />
+    </configuration>
+    <configuration name="com.moonheart.algs4.exercise.chapter2.PriorityQueue.TopM" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.moonheart.algs4.exercise.chapter2.PriorityQueue.TopM" />
+      <module name="algs4-exercise" />
+      <option name="PROGRAM_PARAMETERS" value="5" />
+      <method v="2" />
+    </configuration>
+    <configuration name="com.moonheart.algs4.exercise.chapter2.QuickSort.Sort2distinct" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.moonheart.algs4.exercise.chapter2.QuickSort.Sort2distinct" />
+      <module name="algs4-exercise" />
+      <method v="2" />
+    </configuration>
+    <configuration name="com.moonheart.algs4.test" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.moonheart.algs4.test" />
       <module name="algs4-exercise" />
       <method v="2" />
     </configuration>

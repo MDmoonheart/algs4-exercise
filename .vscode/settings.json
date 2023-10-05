@@ -1,9 +1,0 @@
-{
-    "java.project.sourcePaths": ["src"],
-    "java.project.outputPath": "bin",
-    "java.project.referencedLibraries": [
-        "lib/**/*.jar",
-        "c:\\Users\\George\\Downloads\\algs4.jar",
-        "d:\\CodePractice\\java\\algs4.jar"
-    ]
-}
