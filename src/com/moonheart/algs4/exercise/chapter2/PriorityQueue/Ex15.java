@@ -7,7 +7,6 @@ package com.moonheart.algs4.exercise.chapter2.PriorityQueue;
 public class Ex15<T extends Comparable<T>> {
     private final T[] pq;
     private final int N;
-    System.out
 
     public static void main(String[] args) {
         Integer[] ints = new Integer[]{1, 2, 2, 3, 4, 5, 3, 1};
