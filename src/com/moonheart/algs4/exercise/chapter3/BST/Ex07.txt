@@ -7,7 +7,29 @@ constant time per query).
 
 Ans:
 
+
 //recursive method
 public double avgCompares() {
 
 }
+
+// recursive method
+public double avgCompares(Key key) {
+    double avg = searchCount(key, root) / (root.size() + 1);
+    return avg;
+}
+
+public int searchCount(Key key, Node node) {
+    if(node == null) return 0;
+    int comp = node.key.compareTo(key);
+    if(comp < 0) return searchCount(key, node.left) + 1;
+    if(comp > 0) return searchCount(key, node.right) + 1;
+    else return 1;
+}
+
+
+The extra field implementation will track the length of path to root node for each node.
+For the root node, the length is 1.
+
+The length of each node equals its parent node length + 1;
+
