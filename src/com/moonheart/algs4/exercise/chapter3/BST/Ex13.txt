@@ -10,6 +10,24 @@ public Value get(Key key) {
     return null;
 }
 
+public void put(Key key, Value value) {
+    // use double pointers
+    Node parent = null;
+    Node current = root;
+
+    while(current != null) {
+        parent = current; // remember the reference of current origin
+        int comp = current.key.compareTo(key);
+        if(comp < 0) current = current.right; // go right
+        if(comp > 0) current = current.left; // go left
+        }
+        else current.val = value;
+    }
+    int comp = parent.key.compareTo(value);
+    if(comp < 0) parent.right = new Node(key, value, parent.size + 1);
+    else parent.left = new Node(key, value, parent.size + 1);
+}
+
 comment from text book:
 The implementation of put() is more complicated because of the need to save a pointer
 to the parent node to link in the new node at the bottom. Also, you need a separate

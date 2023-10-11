@@ -20,14 +20,40 @@ public Key max() {
     }
     return x.key;
 }
-
+// the largest key smaller or equal to the key.
 public Key floor(Key key) {
-    if(isEmpty() || min().key.compareTo(key) > 0) return null;
+    if (key == null) throw new IllegalArgumentException("argument to floor() is null");
+    if(isEmpty()) return null;
     Node x = root;
-    while(x.key.compareTo(key) < 0 && x.right != null) {
+    while(x != null) {
         int comp = x.key.compareTo(key);
-        if(comp == 0) return return x.key;
+        if(comp == 0) return x.key;
+        if(comp < 0){
+            if (x.right.min().compareTo(key) > 0) return x.key;
+            else x=x.right;
+        }
+        else {
+            x = x.left;
+        }
     }
-    return x;
+    return null; // the min is greater than the key
 }
 
+// the smallest key greater or equal to the key.
+public Key ceiling(Key key) {
+    if (key == null) throw new IllegalArgumentException("argument to ceiling() is null");
+    if(isEmpty()) return null;
+    Node x = root;
+    while(x != null) {
+        int comp = x.key.compareTo(key);
+        if(comp == 0) return x.key;
+        if(comp < 0){
+            x = x.right
+        }
+        else {
+            if (x.left.max().compareTo(key) < 0) return x.key;
+            else x=x.left;
+        }
+    }
+    return null; // the max is smaller than the key
+}

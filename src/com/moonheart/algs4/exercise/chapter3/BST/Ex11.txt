@@ -5,5 +5,7 @@ in a tree of height N? (See Exercise 3.2.2.)
 Ans:
 For the level 1, you can pick up N nodes as the root, let's say you pick up the ith node(1<=i<=N)
 so there are i-1 nodes on the left and N-i nodes on the right. Based on the fact we can develop
-the mathematics induction formula.
-N(n) =
+the mathematics induction formula. Basically, the formula would be
+
+N(n) equals the sum of N(i-1) * N(n-i) where i ranges from i to n;
+I JUST CANNOT SOLVE IT.
