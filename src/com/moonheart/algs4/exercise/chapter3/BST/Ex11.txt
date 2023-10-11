@@ -1,0 +1,9 @@
+3.2.11 How many binary tree shapes of N nodes are there with height N? How many
+different ways are there to insert N distinct keys into an initially empty BST that result
+in a tree of height N? (See Exercise 3.2.2.)
+
+Ans:
+For the level 1, you can pick up N nodes as the root, let's say you pick up the ith node(1<=i<=N)
+so there are i-1 nodes on the left and N-i nodes on the right. Based on the fact we can develop
+the mathematics induction formula.
+N(n) =

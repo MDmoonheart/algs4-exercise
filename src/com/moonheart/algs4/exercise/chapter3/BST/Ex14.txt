@@ -1,0 +1,33 @@
+3.2.14 Give nonrecursive implementations of min(), max(), floor(), ceiling(),
+rank(), and select().
+
+Ans:
+
+public Key min() {
+    if(isEmpty()) return null;
+    Node x = root;
+    while(x.left!=null) {
+        x = x.left;
+    }
+    return x.key;
+}
+
+public Key max() {
+    if(isEmpty()) return null;
+    Node x = root;
+    while(x.left!=null) {
+        x = x.right;
+    }
+    return x.key;
+}
+
+public Key floor(Key key) {
+    if(isEmpty() || min().key.compareTo(key) > 0) return null;
+    Node x = root;
+    while(x.key.compareTo(key) < 0 && x.right != null) {
+        int comp = x.key.compareTo(key);
+        if(comp == 0) return return x.key;
+    }
+    return x;
+}
+

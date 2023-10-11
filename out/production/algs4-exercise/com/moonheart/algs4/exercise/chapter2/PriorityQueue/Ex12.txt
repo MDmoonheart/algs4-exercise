@@ -1,0 +1,6 @@
+2.4.13 Describe a way to avoid the j < N test in sink().
+
+Ans:
+you can modify the less method to deal with null value, if the second value
+is null, just return false, in that way, when j==N, it will refer to the null value at
+j+1, and j will stay at the first child node.
