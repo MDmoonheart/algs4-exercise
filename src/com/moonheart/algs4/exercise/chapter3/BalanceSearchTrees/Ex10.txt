@@ -1,0 +1,6 @@
+3.3.10 Draw the red-black BST that results when you insert items with the keys
+E A S Y Q U T I O N in that order into an initially empty tree.
+
+Ans: according to 1-1 correspondence between red-black tree and 2-3 tree, we can easily convert a
+2-3 tree to a red-black tree resulted from the same insertion order, so the answer is very similar
+to Ex01

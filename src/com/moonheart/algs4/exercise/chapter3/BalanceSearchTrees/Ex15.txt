@@ -1,0 +1,7 @@
+3.3.15 Answer the previous two questions
+for the case when the keys are inserted in descending
+order.
+
+Ans:
+false, please refer to [https://algs4.cs.princeton.edu/33balanced/media/red-black-255ascending.mov]
+

@@ -1,0 +1,6 @@
+3.2.32 Certification. Write a method isBST() that takes a Node as argument and returns
+true if the argument node is the root of a binary search tree, false otherwise.
+Hint : This task is also more difficult than it might seem, because the order in which you
+call the methods in the previous three exercises is important.
+
+Ans:

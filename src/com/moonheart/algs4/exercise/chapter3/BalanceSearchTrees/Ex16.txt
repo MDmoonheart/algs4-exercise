@@ -1,0 +1,8 @@
+3.3.16 Show the result of inserting n into the
+red-black BST drawn at right (only the search
+path is shown, and you need to include only
+these nodes in your answer).
+
+
+Ans:
+j u t s r q p l o m n

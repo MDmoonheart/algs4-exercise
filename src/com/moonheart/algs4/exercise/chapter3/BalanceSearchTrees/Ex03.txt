@@ -1,0 +1,7 @@
+3.3.3 Find an insertion order for the keys S E A R C H X M that leads to a 2-3 tree
+of height 1.
+
+Ans:
+If we need a height of 1 2-3 tree that contains 8 keys, the only possible array representation for
+the tree is  E S A C H M R X, which is the answer too.
+

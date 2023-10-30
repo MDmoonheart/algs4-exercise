@@ -1,0 +1,7 @@
+3.3.4 Prove that the height of a 2-3 tree with N keys is between ~ ⎣log3 N⎦
+.63 lg N (for a tree that is all 3-nodes) and ~⎣lg N⎦ (for a tree that is all
+2-nodes).
+
+Ans:
+if all the node is 3-node, then the height is ⎣log3 N⎦, if all the node is 2-node, then the
+height is ⎣lg N⎦. So it always comes between these two values.
