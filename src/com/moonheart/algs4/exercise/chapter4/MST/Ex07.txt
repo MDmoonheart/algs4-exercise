@@ -1,0 +1,5 @@
+4.3.7 How would you find a maximum spanning tree of an edge-weighted graph?
+
+Ans:
+reverse the weight, so that finding the maximum is the same for finding the minimum.
+

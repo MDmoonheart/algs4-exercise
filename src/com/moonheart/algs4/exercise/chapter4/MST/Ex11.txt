@@ -1,0 +1,21 @@
+4.3.11 Determine the amount of memory used by EdgeWeightedGraph to represent a
+graph with V vertices and E edges, using the memory-cost model of Section 1.4.
+
+Ans:
+Assumption: no Integer value is cached: same vertex on different edges instance do not share the same int value.
+
+Each edge needs memory of 2 int and 1 double, that is 2 * 4 + 8 = 16 in total,
+and since Bag uses LinkedList implementation, so each edge has a reference pointer
+overhead, that is 2 * 4 + 8 + 8 = 24, we also need to add up the object overhead, say 16 for each,
+that is 32 since each edge correspond 2 instance: Edge and Node in Bag, so 56 in total, and we need to double
+it because each edge is counted twice that is 112 in total.
+
+For vertices, each vertex assumes a int 4 bytes, a bag object 4 bytes for recording the length, 8 bytes for recoding the
+first generic type, 16 bytes for object overhead, since we maintain an array of object, each element take up 8 bytes for
+reference, so it is 40 in total.
+
+For constant overhead, each EWG assumes 8 bytes for two fields of int for recording the number of vertex and edges,
+8 bytes for reference to the Bag array, 16 bytes for object overhead, 16 bytes for Bag array object. A reference to the string of
+line separator(8 bytes), lines separator(utf-8 8 bytes). So it is 56 in total.
+
+so the linear formula is 56 + 40V + 112E

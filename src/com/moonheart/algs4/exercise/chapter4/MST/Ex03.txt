@@ -1,0 +1,9 @@
+4.3.3 Show that if a graph’s edges all have distinct weights, the MST is unique.
+
+Ans:
+Otherwise, there is only two possible case: the other MST has larger weight than the current one or smaller than the
+current one.
+For the former one, if the MST weight total is larger than the current one, then it is not MST.
+For the latter one, if the MST weight total is smaller than the current one, then the current one is not MST.
+
+Both of them are contradictory to the premises.

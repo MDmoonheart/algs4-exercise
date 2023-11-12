@@ -1,0 +1,5 @@
+4.3.8 Prove the following, known as the cycle property: Given any cycle in an edgeweighted
+graph (all edge weights distinct), the edge of maximum weight in the cycle
+does not belong to the MST of the graph.
+
+Ans:

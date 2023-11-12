@@ -1,0 +1,6 @@
+4.3.1 Prove that you can rescale the weights by adding a positive constant to all of
+them or by multiplying them all by a positive constant without affecting the MST.
+
+Ans:
+the MST is established on the order of weight of edges, changing the way by the methods mentioned above does
+not change the order, so the MST is the same.
